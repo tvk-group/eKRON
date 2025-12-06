@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EKRON – The Kron Family Memecoin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="EKRON is the primary memecoin of the Entelekron ecosystem – a playful entry into the Kron universe." />
+  <style>
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#020617;color:#0f172a;}
+    .page{min-height:100vh;display:flex;flex-direction:column;}
+    header{padding:18px 6vw;display:flex;justify-content:space-between;align-items:center;}
+    .logo{font-weight:800;font-size:1.1rem;letter-spacing:0.08em;color:#fbbf24;}
+    header nav a{margin-left:16px;font-size:0.9rem;text-decoration:none;color:#e5e7eb;}
+    main{flex:1;padding:26px 6vw 48px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:28px;align-items:center;}
+    @media(max-width:768px){main{grid-template-columns:1fr;padding-top:0;}header{flex-direction:column;align-items:flex-start;gap:8px;}}
+    .hero-card{background:linear-gradient(135deg,#fbbf24,#f97316);border-radius:20px;padding:20px 20px 18px;box-shadow:0 20px 45px rgba(0,0,0,0.4);color:#111827;}
+    .pill{font-size:0.75rem;text-transform:uppercase;letter-spacing:0.12em;color:#11182780;margin-bottom:8px;}
+    h1{font-size:clamp(2rem,3.6vw,2.6rem);margin:0 0 8px;}
+    .sub{font-size:0.95rem;color:#1f2933;max-width:520px;margin-bottom:14px;}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;font-size:0.8rem;}
+    .tag{padding:4px 9px;border-radius:999px;background:#fff3;border:1px solid #facc15;}
+    .btn-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:4px;}
+    .btn{border-radius:999px;padding:8px 16px;font-size:0.85rem;border:none;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px;}
+    .btn.primary{background:#111827;color:#f9fafb;}
+    .btn.secondary{background:#fefce8;color:#854d0e;}
+    .note{font-size:0.78rem;color:#111827a0;max-width:520px;}
+    .side-card{background:#020617;border-radius:18px;padding:18px;border:1px solid #1f2937;box-shadow:0 18px 40px rgba(15,23,42,0.9);color:#e5e7eb;}
+    .title{font-size:0.9rem;text-transform:uppercase;letter-spacing:0.12em;color:#9ca3af;margin-bottom:10px;}
+    .kv{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;font-size:0.9rem;}
+    .kv-label{font-size:0.78rem;text-transform:uppercase;letter-spacing:0.08em;color:#6b7280;}
+    .kv-value{font-weight:500;word-break:break-all;}
+    .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;font-size:0.78rem;}
+    .chip{padding:4px 9px;border-radius:999px;border:1px solid #1f2937;color:#9ca3af;}
+    footer{padding:12px 6vw 22px;font-size:0.8rem;color:#6b7280;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  </style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="logo">EKRON</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#token">Token</a>
+      <a href="#links">Links</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="hero-card">
+        <div class="pill">Kron Family • Primary Memecoin</div>
+        <h1>The gateway meme into the Entelekron universe.</h1>
+        <p class="sub">
+          EKRON is the core Kron-family memecoin – a playful entry point into the Entelekron ecosystem,
+          connecting community, culture and experiments across SoviKron, MineKron, AlviKron and more.
+        </p>
+        <div class="tags">
+          <span class="tag">$EKR on Solana/Base (planned)</span>
+          <span class="tag">Meme first, utility later</span>
+          <span class="tag">Community-driven</span>
+        </div>
+        <div class="btn-row">
+          <a class="btn primary" href="#" target="_blank" rel="noopener">Chart (soon)</a>
+          <a class="btn secondary" href="#links">Official Links</a>
+        </div>
+        <p class="note">
+          EKRON is a high-risk, experimental memecoin. No guarantees, no promises.
+          Always verify contract addresses and never invest more than you can afford to lose.
+        </p>
+      </div>
+    </section>
+
+    <aside>
+      <div id="token" class="side-card" style="margin-bottom:16px;">
+        <div class="title">Token Info</div>
+        <div class="kv">
+          <div>
+            <div class="kv-label">Name</div>
+            <div class="kv-value">EKRON</div>
+          </div>
+          <div>
+            <div class="kv-label">Symbol</div>
+            <div class="kv-value">EKR</div>
+          </div>
+          <div>
+            <div class="kv-label">Chain</div>
+            <div class="kv-value">Solana / Base (planned)</div>
+          </div>
+          <div>
+            <div class="kv-label">Total Supply</div>
+            <div class="kv-value">TBA</div>
+          </div>
+          <div>
+            <div class="kv-label">Contract</div>
+            <div class="kv-value">TBA – do not buy fake contracts.</div>
+          </div>
+          <div>
+            <div class="kv-label">Family</div>
+            <div class="kv-value">SoviKron • MineKron • AlviKron</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="links" class="side-card">
+        <div class="title">Links</div>
+        <div class="kv" style="grid-template-columns:1fr;">
+          <div>
+            <div class="kv-label">Primary Domain</div>
+            <div class="kv-value">
+              <a href="https://ekron.network" target="_blank" rel="noopener" style="color:#e5e7eb;">ekron.network</a>
+            </div>
+          </div>
+          <div>
+            <div class="kv-label">Social</div>
+            <div class="kv-value">
+              Twitter/X: coming soon<br/>
+              Telegram: coming soon
+            </div>
+          </div>
+        </div>
+        <div class="chips">
+          <span class="chip">Meme</span>
+          <span class="chip">Community</span>
+          <span class="chip">High risk / high volatility</span>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <span>© EKRON • Kron family memecoin.</span>
+    <span>Not financial advice. Pure experiment.</span>
+  </footer>
+</div>
+</body>
+</html>
