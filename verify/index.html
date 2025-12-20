@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>eKRON – Official Verification</title>
+  <meta name="description" content="Official eKRON verification page: contract, wallets, locks, and anti-dump policy."/>
+  <style>
+    :root{--bg:#f5f5f7;--card:#fff;--text:#0f172a;--muted:#64748b;--line:#e5e7eb;--radius:18px;--accent:#111827;--link:#2563eb;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(circle at top,#ffe8c7,var(--bg) 60%);color:var(--text)}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1050px;margin:0 auto;padding:28px 18px}
+    header{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+    .logo{font-weight:900;letter-spacing:.10em;text-transform:uppercase}
+    .nav a{margin-left:14px;color:var(--muted)}
+    .hero{background:linear-gradient(135deg,#111827,#9a3412);color:#fff;border-radius:22px;padding:18px;box-shadow:0 18px 40px rgba(15,23,42,.12)}
+    .pill{display:inline-flex;gap:8px;align-items:center;padding:5px 10px;border-radius:999px;background:rgba(255,255,255,.12);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+    h1{margin:10px 0 6px;font-size:clamp(1.8rem,3.2vw,2.4rem)}
+    .sub{margin:0;color:rgba(255,255,255,.82);line-height:1.6;max-width:850px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+    @media(max-width:860px){.grid{grid-template-columns:1fr}}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:0 14px 35px rgba(15,23,42,.06)}
+    .title{font-size:.88rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:10px}
+    .kv{display:grid;grid-template-columns:1fr 1fr;gap:10px 16px}
+    @media(max-width:520px){.kv{grid-template-columns:1fr}}
+    .k{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+    .v{font-weight:600;word-break:break-all}
+    .warn{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;padding:10px 12px;border-radius:14px;line-height:1.55}
+    .ok{background:#eff6ff;border:1px solid #bfdbfe;color:#1d4ed8;padding:10px 12px;border-radius:14px;line-height:1.55}
+    footer{margin-top:14px;padding:12px 0;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    code{background:#0b1220;color:#e5e7eb;padding:2px 6px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">eKRON • Verification</div>
+      <div class="nav">
+        <a href="/">Home</a>
+        <a href="/legal/terms.html">Legal</a>
+        <a href="https://entelekron.org" target="_blank" rel="noopener">EnteleKRON</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="pill">Official Verification • Anti-Scam</div>
+      <h1>Verify everything before sending funds.</h1>
+      <p class="sub">
+        This page lists the official contract address, treasury wallets and lock contracts for eKRON.
+        If an address is not shown here and not announced through official channels, assume it is not official.
+      </p>
+
+      <div class="grid">
+        <div class="warn">
+          <b>High Risk Notice:</b> eKRON is an experimental memecoin. No guaranteed price, no guaranteed liquidity, no guaranteed listings.
+          Always verify the chain and contract address.
+        </div>
+        <div class="ok">
+          <b>Anti-Dump Standard:</b> Any sales from locked allocations must be publicly announced <b>14 days in advance</b>.
+          Sales must not exceed <b>10% of unlocked/available allocation</b> per sale event.
+        </div>
+      </div>
+    </section>
+
+    <div class="grid" style="margin-top:12px">
+      <div class="card">
+        <div class="title">Token Snapshot</div>
+        <div class="kv">
+          <div>
+            <div class="k">Name</div>
+            <div class="v">eKRON</div>
+          </div>
+          <div>
+            <div class="k">Symbol</div>
+            <div class="v">EKRON</div>
+          </div>
+          <div>
+            <div class="k">Network</div>
+            <div class="v">Base (EVM)</div>
+          </div>
+          <div>
+            <div class="k">Total Supply</div>
+            <div class="v">10,000,000,000</div>
+          </div>
+          <div>
+            <div class="k">Main Contract</div>
+            <div class="v">PASTE_CONTRACT_ADDRESS_HERE</div>
+          </div>
+          <div>
+            <div class="k">Genesis Wallet</div>
+            <div class="v">PASTE_GENESIS_WALLET_HERE</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="title">Wallets & Locks</div>
+        <div class="kv">
+          <div>
+            <div class="k">LP Wallet</div>
+            <div class="v">PASTE_LP_WALLET_HERE</div>
+          </div>
+          <div>
+            <div class="k">Operations Wallet</div>
+            <div class="v">PASTE_OPS_WALLET_HERE</div>
+          </div>
+          <div>
+            <div class="k">Ecosystem Allocation</div>
+            <div class="v">10% • 12M locked</div>
+          </div>
+          <div>
+            <div class="k">Founder Allocation</div>
+            <div class="v">10% • 5% (6M) + 5% (12M)</div>
+          </div>
+          <div>
+            <div class="k">Founder Lock (6M) Contract</div>
+            <div class="v">PASTE_6M_LOCK_CONTRACT</div>
+          </div>
+          <div>
+            <div class="k">Founder Lock (12M) Contract</div>
+            <div class="v">PASTE_12M_LOCK_CONTRACT</div>
+          </div>
+          <div>
+            <div class="k">Ecosystem Lock (12M) Contract</div>
+            <div class="v">PASTE_ECOSYSTEM_LOCK_CONTRACT</div>
+          </div>
+          <div>
+            <div class="k">Policy</div>
+            <div class="v">14-day notice + max 10% per sale</div>
+          </div>
+        </div>
+
+        <p style="margin-top:12px;color:var(--muted);line-height:1.6;font-size:.9rem">
+          Tip: For BaseScan links, copy an address and search it directly on BaseScan. Always compare the exact address characters.
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:12px">
+      <div class="title">Official Channels</div>
+      <p style="margin:0;color:var(--muted);line-height:1.7">
+        Official ecosystem references:
+        <br/>• TVK Group: <a href="https://tvk.group" target="_blank" rel="noopener">tvk.group</a>
+        <br/>• EnteleKRON: <a href="https://entelekron.org" target="_blank" rel="noopener">entelekron.org</a>
+        <br/>• SOVRA: <a href="https://sovra.network" target="_blank" rel="noopener">sovra.network</a>
+        <br/><br/>
+        If you reached this page through a random link, type the domain manually and re-check.
+      </p>
+    </div>
+
+    <footer>
+      <span>© eKRON • Official Verification Page</span>
+      <span><a href="/legal/risk.html">Risk Disclosure</a> • <a href="/">Home</a></span>
+    </footer>
+  </div>
+</body>
+</html>
